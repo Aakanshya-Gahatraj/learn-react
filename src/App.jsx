@@ -1,11 +1,11 @@
 import "./App.css";
-import Cell from "./components/Cell";
+import Board from "./components/Board";
 
 function App() {
   return (
-    <>
-      <Cell />
-    </>
+    <div className="flex flex-col gap-10 justify-center items-center h-screen">
+      <Board />
+    </div>
   );
 }
 
